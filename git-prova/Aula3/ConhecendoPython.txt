@@ -1,0 +1,70 @@
+Ao invez de declarar variaveis com simbolos, é melhor se utilizar o nome descritivo para assim facilitar na documentação,
+ficando mais fácil de entender e associar
+
+- Declarar variaveL (COM VALOR)
+    NOME_VARIAVEL = VALOR
+
+- Gravidade --> GRAV = 9.81
+
+- Para exibir resultado:
+    Print(resultado)
+
+- ** --> significa que é algo ao quadrado
+- * --> multiplica
+
+obs: contas seguem a ordem da matematica para as operações
+
+- 1° explique oque o codigo vai fazer e depois oque é cada item 
+
+- Necessario ter uma interface amiga --> aprender a formar textos de saida
+
+- Comentario longo ''' '''
+
+                                Exemplo de codigo:
+
+''' programa para o calculo do tempo de retorno de uma bola lançada verticalmente'''
+
+velocidade_Inicial = 5  # velocidade inicial [m/s] (explicar oque é  e em que dado está)
+GRAV = 9.81             # Gravidade em [m/s^2]
+
+tempo_Retorno = 2*velocidade_Inicial/GRAV # tempo de retorno a posição inicial
+
+Print(tempo_Retorno)
+
+                            Formatação de textos de saida:
+- f-string (strings literais formadas), sempre que iniciam tem a letra "f" e possuem "{}" para realizar a
+interpolação das expressões que serão exibidas
+
+Exemplo de codigo:
+
+universidade = 'maua' # universidade recebe(=)  o texto "maua", poderia ser escrito a string com "",''' ''' ou ' '
+
+print(f'Onde estão os melhores cursos de TI? na {universidade}!)
+# f-string = retornatexto, (universidade) --> retorna o valor anteriormente atribuido
+
+                    Controlar o numero de casas decimais a ser exibido:
+
+                                        : .NF 
+
+   : --> variavel a esquerda que ira ser formatada
+   . --> separador decimal
+   N --> numero de casas decimais que deseja exibir
+   F --> float
+
+   Exemplo:
+
+   valor_exato = 45.999999
+   print(f" O resultado é {valor_exato:.2F}) #vai aparecer do 2 numeros apos a virgula
+
+                                     Entrada de dados:
+
+                                     Input(comando)
+ obs: tem que converter o retorno (se o retorno não for em string) Input para o tipo que você deseja
+
+ Exemplo:
+
+ X = int(input('Disite um numero inteiro: ')) # especificar o tipo que vai converter nesse caso é o int
+
+ print(f' resultado = {2*X}') # F --> Especifica o tipo float
+ 
+  

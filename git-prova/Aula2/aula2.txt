@@ -1,0 +1,37 @@
+                                            Lógica de Programação - vitão
+                                                        AULA 2 
+
+                                                      FLUXOGRAMA
+
+Sequencia logica: É um conjunto ondenado de etapas que devem ser executadas na solução de um problema 
+
+Algoritimo: Representa uma sequência de regras que devem ser executado com uma ordem pré-estabelecida
+            Cada Algoritmo possui regras, e essas regras devem ter um significado e ser formalizados (FLUXOGRAMA)
+
+
+Fluxograma: É um diagrama que representa um algoritmo
+            Ilustra de forma fácil o fluxo de informações entre os elementos, revelando uma sequência logica do 
+        desenvolvimento de um processo.
+
+Simbologia: Anexadas em jpg
+    regras:
+            - linha de fluxo: prestar atenção na ponta da seta
+            - Decisão: pelas regras BR se for verdadeiro --> direita e se for falso --> esquerda
+
+Exemplo : calcular força exercida pela coluna de liquido
+        ( foto em jpg)
+
+        OBS: em operações nao se usa o [],{}, e sua ordem de resolução obedece a ordem matematica (*,/,+,-)
+
+        na imagem F  <--- ( f recebe)
+                  Pi (importa)
+                
+                o bloco : h,d,gama --> chama as variaveis
+
+
+OBS Extra:
+ quando se trata de Decisão é necessario um conectivo --> bolinha para conectar
+
+
+ exercicio extra : "Teste de mesa" --> ja caiu em provas anteriores
+

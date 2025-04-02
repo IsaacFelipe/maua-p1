@@ -1,0 +1,12 @@
+O operador em Python é um caractere que liga operandos para formar um novo valor. Os operadores podem ser usados para realizar operações aritméticas ou lógicas. 
+O módulo operator exporta funções que correspondem aos operadores intrínsecos do Python. Por exemplo, operator.add(x,y) é equivalente à expressão x+y. 
+Alguns exemplos de operadores em Python: 
+Operador de adição (+): Soma dois ou mais valores
+Operador de subtração (-): Subtrai um valor de outro
+Operador de multiplicação ()*: Multiplica valores
+Operador de divisão (/): Divide um valor por outro
+Operador de resto da divisão (%): Retorna o resto de uma divisão
+Operador de divisão inteira (//): Obtém apenas a parte inteira de um resultado de divisão
+Operador de potenciação (): ** Eleva um valor a uma potência
+Operador != Verifica se dois valores são diferentes
+Os operadores são símbolos especiais que podem ser usados para executar computação aritmética ou lógica. 

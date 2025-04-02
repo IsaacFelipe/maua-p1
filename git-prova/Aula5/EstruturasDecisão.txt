@@ -1,0 +1,50 @@
+                                    Estruturas de decisão 
+
+ - comando que avalia uma exoressão logica podendo ser true ou false
+se-então
+se-então-senão
+
+
+                                        Se-então
+
+- TRUE: sera executado os comandos no caminho
+- Caso ao contrario, sera efetuado um desvio sem nenhum comando
+
+Estrutura:
+    if<condição>:
+
+
+                                         Se-então-senão
+
+- Se o resultado for TRUE será executado os comandos encontrados no caminho true
+- Se o resultado for FALSE será executado os comandos encontrados no caminho false
+
+Estrutura:
+    if<condição>:
+        <instrução>
+    else:
+        <instrução>
+
+
+Decisão aninhadas(uma dentro de outra):
+
+    if<condição>:
+        <instrução>
+            if<condição>:
+                <instrução>
+            else:
+                <instrução>
+    else:
+        <instrução>
+
+
+Controle de fluxo:
+
+    if<condição>:
+        <instrução>
+    elif:
+        <instrução>
+    elif:
+        <instrução>
+    else:
+        <instrução>

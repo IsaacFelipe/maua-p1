@@ -1,0 +1,42 @@
+Há uma biblioteca no python para realizar operações matematicas como seno, cosseno, log : MODULO MATH
+
+É para usá-lo basra importalo com o comando IMPORT, assim podemos acessar a função raiz quadrada com a intrução:
+MATH.SQRT()
+
+                            Exemplo:
+
+import math  #importa a biblioteca
+
+numero = 25
+
+x = math.SQRT(numero)
+
+print(x)
+
+
+- existe duas formas de importar um MODULO:
+        1- import math -->importa o MODULO
+            .
+            .
+            .
+            math.SQRT --> depois importa as funções individualmente
+
+        2- from module import function
+            ex:
+            from module import SQRT
+
+            Nesse não precisa trabalhar com o prefixo math só a função
+
+            Exemplo:
+                from math import SQRT
+                numero = 25
+                x = SQRT(numero) 
+                print(x)
+
+        pode importar mais de uma por vez, por Exemplo:
+
+                from math import sq, exp, log, sin
+
+        ou importar todos:
+
+                from module import * 

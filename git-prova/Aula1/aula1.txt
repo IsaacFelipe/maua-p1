@@ -1,0 +1,119 @@
+                                            Lógica de Programação - vitão
+                                                        AULA 1 
+
+Introdução:
+- Dispositivos sao programáveis
+- Os computadores não são projetados para realizar apenas UMA TAREFA, mas sim para efetuar
+QUALQUER TAREFA que possaser programada.
+- Um PROGRAMA é um conjunto de instruções que um computador executa para realizar determinada tarefa.
+- Programação em Ptthon
+
+Hardware:
+ - Hardware = dispositivos físicos(componentes do computador)
+ - O computador não é um dispositivo único e sim um sistema de dispositivos que trabalham em conjunto.
+ - O computador é constituido dos seguintes macro componentes:
+        - Unidade Central de Processamento (CPU) --> "Coração do computador" que precisa da memoria RAM("Cerebro") --> Aonde manda e 
+        recebe a RAM
+        - Memoria Central --> Memoria RAM (Quanto maior a RAM maior a capacidade de velocidade e processamento) --> Qualquer programa é 
+        rodado pela RAM
+        - Dispositivos de armazenamento secundário --> HD(Só armazena) --> Guarda informação
+
+ - CPU: A CPU é o componente mais importante do computador. Ela executa os programas que implementam as tarefas desejadas.
+
+ - RAM: 
+       - Dispositivo no qual o programa é armazenado enquanto está em execução, bem como os dados com os quais esse programa interage
+       - É uma memoria volátil(TEMPORARIA)
+       - É uma memoria de acesso aleatorio, você consegue acessar qualquer posição de memoria(em oposição á um acesso sequencial)
+       - RAM --> memoria de leitura
+
+ - armazenamento secundário:  
+       - Tipo de memória que armazena dados por longos períodos de tempo, mesmo na ausência de energia elétrica.
+       - Os programas são normalmente armazenados em memória secundária e carregados na memória principal quando necessário.
+       (Disk Drive, Solid State Drive (SSD), Flash Drive)
+
+- Dispositivo de entrada: 
+       - Entrada é qualquer informação coletada pelo computador a partir de usúarios ou outros Dispositivos
+       - Aquisição de dados --> dispositivo de entrada (ex:Teclado,Microfone)
+
+- Dispositivo de saida:
+       - Saida é qualquer informação produzida pelo computador, destinada a usuario ou outro dispositivo. Os dados são enviados para um 
+       dispositivo de saida, que formata e apresenta de forma adequada.(ex: monitor,fone)
+       
+Software:
+         Software de sistema - controlam operações basicas
+            - Sistema Operacional: controlam as operações internas do Hardware, gerenciam os dispositivos conectados, permite gravação 
+            e coleta de dados e controlam a execução de programa.(Ex: MacOS, Windows, Linux)
+            - Utilitarios: executa  tarefas especializadas que melhoram o desempenho do computador ou protegem os dados armazenados
+            (ex: MCAFFEE, Nuvem(Backup))
+            - Ferramentas de desenvolvimento: usados na criação, modificação e teste de Software.
+            (ex: assemblers, compiladores e interpretadores)
+
+        Aplicativos – realizam tarefas úteis para operações do dia-a-dia do usuário.
+
+Armazenamento de dados
+    - A memoria é dividida em pequenos locais --> Bytes (Só cabe 1 letra do alfabeto ou um pequeno numero. Cada byte é subdividido em 8
+    Unidades chamada de bity(Binary digits))
+            - NUMEROS INTEIROS: inicia no ultimo digiro e vai movimentando (2**0, 2**1, 2**2)
+            exemplo: 
+                    1011101
+            maximo inteiro armazenado em 2 bytes (16 bits)
+            
+            - NUMEROS INTEIROS NEGATIVOS: São armazenados segundo um esquema de codificação conhecido como complemento de 2
+            - NUMEROS REAIS:São armazenados segundo um esquema de codificação conhecido como notação de ponto flutuante
+
+Armazenamento de caracteres:
+        - Quando um caractere é armazenado em memória, inicialmente é convertido em um código numérico. Esse código é então armazenado na 
+        memória como uma sequência binária.
+
+        -ASCII: O American Standard Code for Information Interchange é um conjunto de 128 códigos numéricosque representam o alfabeto 
+        inglês e diversos caracteres depontuação --> alfabeto em ingles
+
+        -Unicode: É um extenso esquema de codificação compatível com o ASCII, mas que também representa caracteres de diversas línguas. 
+        Atualmente, o Unicode está rapidamente se tornando o esquema padrão para codificação de caracteres. ---> Varias nacionalidades
+
+
+        -A CPU é o dispositivo eletrônico responsável pela execução dos programas. A Unidade Lógico Aritmética (ULA, ou ALU, em inglês) é 
+        peça fundamental da CPU, sendo projetada para realizar as seguintes operações:
+                    - Ler informação armazenada na memória principal
+                    - Somar, subtrair, multiplicar e dividir dois números
+                    - Mover dados de uma local de memória para outro
+                    - Determinar se dois valores são iguais
+        
+        ULA: Recebe informação da memoria central, ela soma e ve se os valores são iguais.
+
+            - A CPU pega e realiza operações simples, mas  ela não age por conta propria:
+                    - Programas "dizem" oque a CPU tem que fazer, um programa é nada mais do que uma lista de instruções(linguagem de maquina)
+                    para que a CPU execute operações.
+                    - Cada fabricante tem a sua(seu microprocessador)
+        
+        ciclo busca-decodifica-executa
+            - CPU executa o programa e ocorre esse ciclo e em alguns casos há memoria(salva)
+            - Quando a CPU executa as instruções em um programa, ocorre um processo conhecido como o ciclo buscar-decodificar-executar 
+            (fetch-decode-execute), que é repetido para cada instrução do programa.
+                1. Buscar. Um programa é uma longa sequência de instruções em linguagem de máquina. O primeiro passo do ciclo é buscar 
+                (ou ler) a próxima instrução da memória para a CPU.
+                2. Decodificar. Uma instrução de linguagem de máquina é um número binário representativo de um comando que diz à CPU 
+                para realizar uma operação. Nesta etapa, a CPU decodifica a instrução que acabou de ser buscada na memória e determina 
+                a operação a ser realizada.
+                3. Executar. A última etapa do ciclo é executar a operação.
+
+        linguagem de maquina --> Assembly--> substituto direto para a linguagem de maquina --> usa linguagens curtas
+                - Um programa especial chamado assembler é usado para traduzir a linguagem assembly para linguagem de máquina
+
+        linguagem de alto nivel:
+                -linguagem de Programação
+                - usam palavras chaves de facil compreensão
+                -permitem a criação de programas complexos empregando um número (muito) menor de instruções quando comparado
+                ao assembly, sem que haja a necessidade de conhecer a arquitetura da CPU.
+
+         Linguagens de alto nível também possuem operadores que realizam diversas operações com dados.
+         Cada linguagem de alto nível possui sua própria sintaxe, que é um conjunto de regras que devem ser rigorosamente seguidas ao 
+         escrever um programa. As regras de sintaxe ditam como palavras-chave, operadores e vários caracteres de pontuação devem ser 
+         usados em um programa.
+
+        compiladores e interpretadores:
+                - linguagem de alto nivel tem que ser traduzida para a linguagem de maquina 
+                - compiladores: pega o codigo inteiro e traduz e gera um arquivo executavel
+                - interpretado: traduz uma instrução por vez, fazer a execução em etapas.
+
+        * python é uma linguagem interpretada

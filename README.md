@@ -1,2 +1,2 @@
-# maua p1
- exercicios python
+# Git Mauá p1
+ exercicios python para a prova
